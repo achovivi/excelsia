@@ -1,0 +1,123 @@
+.carose {
+    min-height: 550px;
+    background-image: url("img/1920width.jpg");
+    background-repeat: no-repeat;
+
+    background-position: center 0;
+    padding-top: 0 !important;
+}
+
+.offertext {
+    margin-top: -290px;
+}
+
+.blockoffer {
+    margin-bottom: 40px;
+}
+
+.samplepix .col {
+    padding: 0 !important;
+    background-color: white;
+
+}
+.row.samplepix{
+    margin-bottom:0 !important;
+}
+.samplepix .col h2,.samplepix .col h3{
+    margin:0;
+    font-family: sans-serif;
+    padding:0 5px;
+    font-weight: bold;
+}
+.samplepix .col h3{
+    padding-top:30px;
+    font-weight: normal;
+}
+.searchcourse{
+    margin-top:40px;
+}
+.newstext label{
+    font-weight: bolder;
+}
+.newstext span{
+    font-family: sans-serif;
+    color:#555555;
+}
+.page-footer{
+    min-height: 400px;
+}
+.brand-logo img{
+    margin-left: 10px;
+    vertical-align: middle;
+    position: absolute;
+}
+.dropme{
+    margin:auto;
+    left:0;
+    right:0;
+    background-color: white;
+    padding: 2px 5px;
+}
+
+.softsoial{
+    padding-top:50px;
+}
+.softsoial img{
+    margin:0 5px;
+}
+.showmenue:hover + a{
+    background:green;
+}
+
+.fake-menu{
+    padding:0;
+    margin:0;
+    text-align: right;
+}
+
+ul.fake-menu li {
+    padding: 0 40px;
+    border-right: 1px solid #ccc;
+    display: inline;
+}
+ul.fake-menu li a{
+    color:white;
+}
+ul.fake-menu li:last-child {
+    border-right: none;
+}
+.newnav{
+    position: relative;
+    padding: 10px 4px;
+}
+.newnav h5{
+    font-size: .8rem;
+    text-align: right;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.newnav h5 a{
+    text-decoration: underline;
+    font-size: .7rem;
+    margin-right: 4px;
+    color: white;
+}
+a.btn-small{
+    text-decoration: none;
+}
+.searchbox{
+    background: white;
+    padding: 0;
+    height: 30px;
+    width: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    vertical-align: bottom;
+    background-image: url("img/search icon copy.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+}
+.hellowme:hover + .dropme{
+    display: block;
+}

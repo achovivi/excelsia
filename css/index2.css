@@ -1,0 +1,593 @@
+
+body{
+    font-family: opensans;
+}
+.carose {
+    min-height: 750px;
+    background-image: url("img/EC 21-11-17 (89 of 92).jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center 0;
+    padding-top: 0 !important;
+}
+
+.danceimage {
+    background-image: url("img/4H2_0667.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 400px !important;
+    background-size: cover;
+    background-position: center 0;
+    padding-top: 0 !important;
+    transform: scaleX(-1);
+}
+
+.offertext {
+    margin-top: -290px;
+}
+
+.blockoffer {
+    margin-bottom: 40px;
+}
+
+.samplepix .col {
+    padding: 0 !important;
+    background-color: white;
+
+}
+
+.row.samplepix {
+    margin-bottom: 0 !important;
+}
+
+.samplepix .col h2, .samplepix .col h3 {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.samplepix .col h3 {
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.searchcourse {
+    margin-top: 0;
+    color: white;
+    position: relative;
+}
+
+.searchcourse span, .searchcourse label{
+    color:white !important;
+}
+.newstext label {
+    font-weight: bolder;
+}
+
+.newstext span {
+    font-family: sans-serif;
+    color: #555555;
+}
+
+.page-footer {
+    min-height: 300px;
+    position: relative;
+    overflow: hidden;
+    background:#16284f !important;
+}
+
+.brand-logo img {
+    margin-left: 10px;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.dropme {
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 2px 5px;
+    z-index: 9999;
+}
+
+.softsoial {
+    padding-top: 50px;
+}
+
+.softsoial img {
+    margin: 0 5px;
+}
+
+.showmenue:hover + a {
+    background: green;
+}
+
+.fake-menu {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+ul.fake-menu li {
+    padding: 0 40px;
+    border-right: 1px solid #ccc;
+    display: inline;
+}
+
+ul.fake-menu li a {
+    color: white;
+}
+
+ul.fake-menu li:last-child {
+    border-right: none;
+}
+
+.newnav {
+    position: relative;
+    padding: 10px 4px;
+}
+
+.newnav h5 {
+    font-size: .8rem;
+    text-align: right;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.newnav h5 a {
+    text-decoration: underline;
+    font-size: .7rem;
+    margin-right: 4px;
+    color: white;
+}
+
+a.btn-small {
+    text-decoration: none;
+}
+
+.searchbox {
+    background: white;
+    padding: 0;
+    height: 30px;
+    width: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    vertical-align: bottom;
+    background-image: url("img/search icon copy.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+}
+
+.hellowme:hover + .dropme {
+    display: block;
+}
+
+.smallboxhanging {
+    position: absolute;
+    margin: auto;
+    width: 250px;
+    height: 232px;
+    top: 0;
+    right:-60px;
+    padding: 20px;
+    transform: scaleX(-1);
+}
+
+.smallboxhanging h3 {
+    margin: 0;
+}
+
+.smallboxhanging small {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.groupphoto {
+    background-image: url("img/AlumniAll.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 400px !important;
+    background-size: cover;
+    background-position: center 0;
+    padding-top: 0 !important;
+}
+
+.inside {
+    background: white;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: auto;
+    right: 0;
+    padding: 10px;
+}
+
+.inside h3 {
+    margin: 0;
+}
+
+.kristin {
+    position: absolute;
+    top: auto;
+    bottom: 50px;
+}
+
+.booka h4, .booka h3 {
+    margin: 0;
+}
+
+.bookholder {
+    width: 50%;
+}
+
+.bookholder h3{
+    font-weight: bolder;
+}
+.bookholder h4{
+    font-size:1.5rem;
+}
+.videoholder {
+    width: 495px;
+    height: 328px;
+    margin: auto;
+    left: auto;
+    right: 0;
+    background-image: url("img/block-Campus.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0;
+    /*<img class="responsive-img col s12 l4" height="386" src="img/block-Campus.jpg" width="386"/>*/
+}
+
+.bottommenut ul {
+    margin: 0;
+    padding: 0;
+}
+
+.bottommenut {
+    margin-top: 40px;
+    width: 70%;
+}
+
+.bottommenut ul{
+    padding:0;
+    margin:0;
+}
+.bottommenut ul li{
+    padding:5px;
+}
+.bottommenut ul li:first-child{
+    padding-top:0;
+}
+.menutitle {
+    font-size: 1.7rem;
+}
+
+.topheadermenu {
+    display: block;
+    text-align: right;
+    position: absolute;
+    margin: auto;
+    left: auto;
+    right: 0;
+    background: rgba(222, 222, 222, .80);
+    top: 0;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.topheadermenu li {
+    display: inline;
+    padding: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.topheadermenu li a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+.topheadermenu li:hover{
+    background-color: darkslategrey;
+    color:white;
+}
+.topheadermenu li:hover a{
+    color:white;
+}
+.bottomheadermenu {
+    display: block;
+    text-align: right;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.bottomheadermenu li {
+    display: inline;
+    padding: 30px;
+    overflow: hidden;
+    border-right: 2px solid #fff;
+}
+
+.bottomheadermenu li a {
+    display: inline-block;
+    padding: 2px 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.transparent-headerbar {
+    min-height: 20px;
+    background: rgba(0, 0, 0, .80);
+    overflow: hidden;
+    position: relative;
+    z-index: 9999;
+}
+
+.bottomheadermenu li:last-child {
+    border: none;
+}
+
+.enqirybtn span {
+    background-color: red;
+    border-radius: 100px;
+    padding: 0 10px;
+}
+
+.sidholder {
+    width: 330px;
+    height: 307px;
+
+    border-radius: 2px;
+    background:rgba(147,132,91,.90);
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    left: 29px;
+    right: auto;
+    bottom: 0;
+
+}
+
+.myblue{
+    background-color:#346191 !important;
+}
+
+
+.searchoverlay{
+    display: block;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background:rgba(0,0,0,.90);
+    margin: auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+.searchform{
+    display: block;
+    position: absolute;
+    width:70%;
+    height: 67px;
+    margin: auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+.bodyremovescroll{
+    overflow: hidden;
+}
+.bottomheadermenu li:hover{
+    background-color: white;
+    color:black !important;
+    cursor: pointer;
+}
+.bottomheadermenu li:hover a{
+    color:black !important;
+}
+
+
+.sidebtn{
+    background-color: #313232;
+    background:-webkit-linear-gradient(#222222,#313232);
+    color:white;
+    /*padding:5px 10px;*/
+    overflow: hidden;
+    width:100px;
+    display: block;
+    margin-top:3rem;
+    cursor: pointer;
+}
+.sidebtn:hover{
+    background:-webkit-linear-gradient(#222222,#000000);
+}
+
+.sidebtn .textbook{
+    display: block;
+    float: none;
+    overflow: hidden;
+    height: 20px;
+    line-height: revert;
+    padding-left: 8px;
+
+}
+
+
+.campussidebtn{
+    background-color: #313232;
+    background:-webkit-linear-gradient(#222222,#313232);
+    color:white;
+    /*padding:5px 10px;*/
+    overflow: hidden;
+    width:100px;
+    display: block;
+    cursor: pointer;
+    margin: auto;
+}
+.campussidebtn:hover{
+    background:-webkit-linear-gradient(#222222,#000000);
+}
+
+.campussidebtn .textbook{
+    display: block;
+    float: none;
+    overflow: hidden;
+    height: 20px;
+    line-height: revert;
+}
+
+.mytextbox{
+    background-color:white !important;
+    padding:0 5px;
+    border:1px solid lightblue;
+}
+.coursesmenu ul{
+    padding:0 !important;
+    margin:0 !important;
+}
+.homebutton{
+    padding-left: 2px !important;
+}
+.homebutton:hover{
+    background-color: transparent !important;
+}
+.homebutton i{
+    line-height: 0;
+    vertical-align: sub;
+}
+
+.triangle {
+    width: 350px;
+    height: 650px;
+    background-image:
+            linear-gradient(to top right, transparent 50%, rgba(70,67,59,.50) 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: absolute;
+    margin:auto;
+    top:auto;
+    left:auto;
+    right:0;
+    bottom:0;
+
+}
+.smalltriangles {
+    width: 200px;
+    height: 100%;
+    background-image:
+            linear-gradient(to top right, transparent 50%, rgba(173,148,91,.90) 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: absolute;
+    margin:auto;
+    top:auto;
+    left:auto;
+    right:0;
+    bottom:0;
+    z-index: 99;
+}
+.wrapers-sideholder{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    z-index: 999;
+    padding: 20px;
+}
+.boldmasterclass{
+    font-weight: bolder;
+    color:white;
+}
+.sidholder .wrapers-sideholder p span{
+    color:white !important;
+    display: block;
+}
+.sidholder .wrapers-sideholder p .pspacing{
+    display: block;
+    padding:15px 0;
+}
+
+.redtrianglecontainer{
+    float:left;
+
+}
+
+.redtriangle{
+    width: 15px;
+    height: 23px;
+    background-image: linear-gradient(to bottom left, transparent 50%, #f44336 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    display: block;
+}
+
+.campusredtrianglecontainer{
+    float:left;
+}
+
+.campusredtriangle{
+    width: 15px;
+    height: 23px;
+    background-image: linear-gradient(to top left, transparent 50%, #f44336 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    display: block;
+}
+
+.footertriangleone{
+    width: 200px;
+    height: 70%;
+    background-image:
+            linear-gradient(to bottom left, transparent 50%, #a3a398 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: absolute;
+    margin:auto;
+    top:auto;
+    left:0;
+    bottom:0;
+    z-index: 5;
+}
+
+.footertriangletwo{
+    width: 350px;
+    height: 120%;
+    background-image:
+            linear-gradient(to bottom left, transparent 50%, #9dabbc 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: absolute;
+    margin:auto;
+    top:auto;
+    left:0;
+    bottom:0;
+    z-index: 3;
+}
+
+.bottomtext span{
+    display: block;
+}
+.livechatbtn{
+    position: absolute;
+    margin: auto;
+    top: auto;
+    left: auto;
+    right: 40px;
+    bottom: 0;
+    width: 120px;
+}

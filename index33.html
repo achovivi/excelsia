@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            max-width: 1920px !important;
+            font-family: opensans;
+            padding-top:118px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .studybanner {
+            background-repeat: no-repeat;
+            position: relative;
+            background-size: 100%;
+            background-position: center 0;
+            padding-top: 0 !important;
+        }
+
+        .studybanner img {
+            border-bottom: 10px solid #c99e0d;
+            min-height: 350px !important;
+        }
+
+        .firstsection {
+            background: #104b8d;
+            border-bottom: 10px solid #c99e0d;
+            min-height: 350px;
+            max-height: 350px;
+        }
+
+        .firstsection .col, .secondsection .col {
+            /*padding: 60px 60px 50px 0;*/
+            padding-right: 50px;
+            padding-top:50px;
+            padding-bottom: 50px;
+        }
+
+        .firstsection .col hr {
+            margin: 0;
+            margin-bottom: 2px;
+            width: 50px;
+            /* height: 10px; */
+            border: 2px solid #fff;
+        }
+
+        .container-fluid {
+            max-width: 1650px;
+        }
+
+        .firstsection .col1 {
+            color: white;
+        }
+
+        .secondsection {
+            background-color: #fbfbfb;
+        }
+
+        .secondsection ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .secondsection ul li {
+            padding: 5px 0;
+        }
+
+        .secondsection ul li:before {
+            content: '> '
+        }
+
+        .secondsection ul p {
+
+            font-weight: bolder;
+            padding-top: 10px;
+            margin-bottom: 0;
+        }
+
+        .secondsection .col1 p {
+            border-top: 10px solid #1268b3;
+        }
+
+        .secondsection .col2 p {
+            border-top: 10px solid #ab955c;
+        }
+
+        .secondsection .col3 p {
+            border-top: 10px solid #8071b4;
+        }
+
+        .secondsection .col4 p {
+            border-top: 10px solid #227f5a;
+        }
+
+        .secondsection .col5 p {
+            border-top: 10px solid #e97e31;
+        }
+
+        .secondsection .col6 p {
+            border-top: 10px solid #73cccc;
+        }
+
+        .secondsection .col7 p {
+            border-top: 10px solid #be1e2d;
+        }
+
+        .no-padding {
+            padding-left: 0 !important;
+        }
+
+        .big-padd-top {
+            padding-top: 50px;
+        }
+
+        .thirdsection {
+            background-color: #104b8d;
+            padding: 30px 0;
+            color: white;
+        }
+
+        .fourthsection {
+            padding: 50px 0;
+            background-color: #fbfbfb;
+        }
+
+        .fourthsection .heading-holder {
+            text-align: center;
+            border-top: 2px solid #000;
+            border-bottom: 2px solid #000;
+            padding: 20px;
+            /* width: 90%; */
+            margin: auto;
+            font-size: 1.6rem;
+        }
+
+        .fourthsection .text-holder {
+            padding: 20px 30px;
+        }
+
+        .fifthsection {
+            padding: 50px 0;
+            background-color: #e3e0d6;
+        }
+
+        .fifthsection .card-image-holder {
+            overflow: hidden;
+        }
+
+        .sixthsection .card-image-holder{
+            overflow: hidden;
+            background-image:url("img/Sharethe light BW.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .fifthsection .card-image-holder img {
+            transform: scaleX(-1);
+        }
+
+        .readmore-text {
+
+            display: block;
+            margin-top: 10px;
+            padding: 5px 0px;
+            border-top: 2px solid #000;
+            border-bottom: 2px solid #000;
+            float: left;
+            clear: left;
+        }
+
+        .livechatbtn {
+            position: fixed;
+            margin: auto;
+            top: auto;
+            left: auto;
+            right: 10px;
+            bottom: 0;
+            z-index: 9999;
+        }
+
+        .thirdandhalfsection {
+            background-image: url("img/Academic-1.jpg");
+            background-repeat: no-repeat;
+            position: relative;
+            background-size: auto 100%;
+            background-position: left top;
+            min-height: 530px;
+            background-color: #e3dfd6;
+            padding: 50px 0;
+            overflow: hidden;
+        }
+
+        .thirdandhalfsection .card .card-body ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .thirdandhalfsection .card {
+           position: relative;
+            z-index: 10;
+        }
+
+        .thirdandhalfsection .card .card-body ul li {
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+
+        .thirdandhalfsection .card .card-body ul li:before {
+            content: '> ';
+        }
+        .thirdandhalfsection .card .card-body {
+            line-height: 1.5;
+        }
+        .thirdandhalfsection h4{
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 11;
+        }
+
+        .campusredtriangle{
+            width: 15px;
+            height: 23px;
+            background-image: linear-gradient(to top left, transparent 50%, #f44336 0);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: left, right;
+        }
+
+        .footertriangletwo{
+            width: 150px;
+            height: 40%;
+            background-image:
+                    linear-gradient(to top right, transparent 50%, #7c745f 0);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: left, right;
+            position: absolute;
+            margin:auto;
+            top:0;
+            left:auto;
+            right:0;
+            bottom:auto;
+            z-index: 4;
+        }
+
+        .footertrianglethree{
+            width: 266px;
+            height: 70%;
+            background-image:
+                    linear-gradient(to top right, transparent 50%, #9dabbc 0);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: left, right;
+            position: absolute;
+            margin:auto;
+            top:0;
+            left:auto;
+            right: 0;
+            bottom:auto;
+            z-index: 3;
+        }
+        .footertrianglefour{
+            width: 76%;
+            height: 450%;
+            background-image:
+                    linear-gradient(to top right, transparent 50%, #e3dfd6 0);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: left, right;
+            position: absolute;
+            margin:auto;
+            top:0;
+            left:auto;
+            right: 0;
+            bottom:auto;
+            z-index: 1;
+        }
+        .footertrianglefive{
+            width: 150px;
+            height: 76%;
+            background-image:
+                    linear-gradient(to bottom left, transparent 50%, #8e2e32 0);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: left, right;
+            position: absolute;
+            margin:auto;
+            top:auto;
+            left:0;
+            right: auto;
+            bottom:0;
+            z-index: 1000;
+        }
+        .sixthsection{
+            padding:20px 0;
+            background-color: #af393e;
+            position:relative;
+        }
+        .sixthsection .card{
+            margin-bottom: 0 !important;
+            border:none !important;
+        }
+        .card-headers-with-underline{
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+
+        .card-headers-without-underline{
+            font-weight: normal;
+            color:#000;
+        }
+
+
+        .header-unicode-arrow-point-up{
+            color:#000;
+            font-weight: bolder;
+        }
+        .header-unicode-arrow-point-up:after{
+            content:"   \2197"
+        }
+
+        .subheader{
+            /*font-weight: bold;*/
+            display: block;
+            margin-bottom: 30px;
+            font-size: 1.4rem;
+        }
+        .sixthsection .firstcol h6,.sixthsection .firstcol h2,.sixthsection .firstcol h4{
+            margin:0;
+            text-align: center;
+        }
+        .sixthsection .firstcol .center-holder{
+            padding:50px;
+            padding-top:60px;
+            width: 35%;
+            margin: auto;
+            color: white;
+            font-weight: normal !important;
+        }
+
+        .sixthsection .firstcol h6{
+         color:mistyrose;
+        }
+        .sixthsection .firstcol h2.middleheading{
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            text-transform: uppercase;
+        }
+        .sixthsection .firstcol h2{
+            text-transform: uppercase;
+        }
+
+        .page-footer {
+            min-height: 300px;
+            position: relative;
+            overflow: hidden;
+            background-color:#0e3f76 !important;
+            padding:50px 0 0 0;
+        }
+
+        .page-footer hr{
+            border:1px solid white;
+            position: relative;
+            z-index: 31;
+        }
+
+        .footerTtriangleone{
+            width: 150px;
+            height: 46%;
+            background-image:
+                    linear-gradient(to bottom left, transparent 50%, #a3a398 0);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: left, right;
+            position: absolute;
+            margin:auto;
+            top:auto;
+            left:0;
+            bottom:0;
+            z-index: 5;
+        }
+
+        .footerTtriangletwo{
+            width: 254px;
+            height: 77%;
+            background-image:
+                    linear-gradient(to bottom left, transparent 50%, #9dabbc 0);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: left, right;
+            position: absolute;
+            margin:auto;
+            top:auto;
+            left:0;
+            bottom:0;
+            z-index: 3;
+        }
+        .bottommenut ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bottommenut {
+
+            width: 90%;
+            margin:auto;
+            margin-top: 40px;
+            color: white;
+            overflow: hidden;
+        }
+
+        .bottommenut ul{
+            padding:0;
+            margin:0;
+        }
+        .bottommenut ul li{
+            padding:5px;
+        }
+        .bottommenut ul li:first-child{
+            padding-top:0;
+        }
+        .bottomtext{
+
+            padding:50px;
+        }
+        .menutitle {
+            font-size: 1.7rem;
+        }
+        .transparent-headerbar ul{
+            padding:0;
+            margin:0;
+        }
+        .transparent-headerbar ul li{
+            list-style: none;
+            display: inline;
+            overflow: hidden;
+        }
+        .topheadermenu{
+            background-color:#104b8d;
+            color:white;
+            position: absolute;
+            margin:auto;
+            top: 0;
+            left:auto;
+            right:0;
+            bottom: auto;
+            font-size:1.2rem;
+        }
+        .topheadermenu li a{
+            padding: 10px 14px;
+            display: inline-block;
+        }
+
+        .homebutton .material-icons{
+            vertical-align: -5px;
+            font-size: 1.5rem !important;
+        }
+        .enqirybtn{
+            background: red;
+            text-decoration: none;
+            color: white;
+            padding: 1px 8px !important;
+            border-radius: 5px;
+            min-width: 22px;
+            display: inline-block;
+        }
+        .bottomheadermenu{
+            position: absolute;
+            top: auto;
+            left: auto;
+            right: 0;
+            bottom: 0;
+            padding:10px 15px !important;
+        }
+
+        .bottomheadermenu li a{
+            color:black;
+            font-size: 1.2rem;
+            padding:0 10px;
+            display: inline-block;
+            border-right:1px solid black;
+        }
+        .bottomheadermenu li a:hover{
+            color:red;
+        }
+        .bottomheadermenu li a.dropmetriger{
+
+        }
+        .searchbox {
+            background: white;
+            padding: 0;
+            height: 30px;
+            width: 230px;
+            display: inline-block;
+            border-radius: 20px;
+            vertical-align: bottom;
+            background-image: url("img/search icon copy.png");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 24px;
+        }
+        ul li a{
+            cursor: pointer;
+        }
+
+        ul li a:hover{
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img alt="" src="img/Excelsia%20Logo%20S%20Colour.png">
+    </a>
+    <div class="transparent-headerbar hide-on-small-and-down">
+<!--        <div class="footertrianglefive"></div>-->
+
+        <ul class="topheadermenu hide-on-med-and-down">
+            <li><a>Current Student</a></li>
+            <li><a>Alumni</a></li>
+            <li><a>Staff</a></li>
+            <li><a class="enqirybtn"><span>Enquiry</span></a></li>
+            <li class="homebutton"><a><i class="material-icons">home</i></a></li>
+        </ul>
+
+        <ul class="bottomheadermenu hide-on-small-and-down">
+            <li><a class="dropmetriger">Study</a></li>
+            <li><a class="dropmetriger">Research</a></li>
+            <li><a class="dropmetriger">Partner & Community</a></li>
+            <li><a class="dropmetriger" style="border:none !important;">About</a></li>
+            <li style="padding:0;margin-right:10px;">
+                <a class="searchbox" href="#">
+
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <section class="firstsection">
+        <div class="container-fluid">
+
+
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col col1">
+                    <hr>
+                    <h4>START YOU LIFE-LONG LEARNING JOURNEY HERE</h4>
+                    <p>
+                                <span>
+                                    supportive, Christ-centred environment, with worldclass academics and accomplished industry
+                                    professionals who are ready to stand beside you and
+                                </span>
+                    </p>
+                </div>
+                <div class="col-xs-12 col-md-8 studybanner col">
+                    <img alt="" src="img/Study%20Banner.png" class="img-fluid">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="secondsection">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 big-padd-top">
+                    <h5>
+                        <span style="color:grey">
+                            Excelsia College > Study
+                        </span>
+                    </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="sec-col col-sm-12 col-md-4 col-lg-3 col col1">
+                    <ul class="">
+                        <p>BUSINESS</p>
+                        <li>PhD of Organisational Leadership</li>
+                        <li>Master of Business Administration</li>
+                        <li>Bachelor of Management and Entrepreneurship</li>
+                        <li>Graduate Diploma of Business Administration</li>
+                        <li>Graduate Certificate in Organisational Leadership</li>
+                    </ul>
+                </div>
+                <div class="sec-col col-sm-12 col-md-4 col-lg-3 col col2">
+                    <ul class="">
+                        <p>CREATIVE & PERFORMING ARTS</p>
+                        <li>Bachelor of Dramatic Art</li>
+                        <li>Associate Degree of Dramatic Art</li>
+                        <li>Master of Music Degree</li>
+                        <li>Bachelor of Music</li>
+                        <li>Associate Degree of Music</li>
+                        <li>Bachelor of Screen Production</li>
+                    </ul>
+                </div>
+                <div class="sec-col col-sm-12 col-md-4 col-lg-3 col col3">
+                    <ul class="">
+                        <p>COUNSELLING</p>
+                        <li>Master of Counselling</li>
+                        <li>Graduate Diploma of Counselling</li>
+                        <li>Graduate Certificate in Counselling</li>
+                    </ul>
+                </div>
+                <div class="sec-col col-sm-12 col-md-4 col-lg-3 col col4">
+                    <ul class="">
+                        <p>EDUCATION</p>
+                        <li>Bachelor of Early Childhood Education</li>
+                        <li>Master of Teaching (Primary)</li>
+                        <li>Master of Teaching (Secondary)</li>
+                        <li>Master of Educational Leadership (Online)</li>
+                    </ul>
+                </div>
+
+                <div class="sec-col col-sm-12 col-md-4 col-lg-3 col col5">
+                    <ul class="">
+                        <p>SOCIAL WORK</p>
+                        <li>Master of Social Work (Qualifying)</li>
+                        <li>Graduate Certificate in Counselling (Bridging Course)</li>
+                    </ul>
+                </div>
+                <div class="sec-col col-sm-12 col-md-4 col-lg-3 col col6">
+                    <ul class="">
+                        <p>CSP SHORT COURSES</p>
+                        <li>MGraduate Certificate in Counselling</li>
+                        <li>Graduate Certificate in Classroom and Curriculum Innovation</li>
+                        <li>Graduate Certificate in Educational Studies</li>
+                    </ul>
+                </div>
+                <div class="sec-col col-sm-12 col-md-4 col-lg-3 col col7">
+                    <ul class="">
+                        <p>PROFESSIONAL DEVELOPMENT</p>
+                        <li>Organisational Behaviour & Leadership BUS501</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="thirdsection myblue white-text searchcourse">
+        <div class="container-fluid">
+
+            <form class="row">
+                <div class="form-group col-sm-12">
+                    <h5>SEARCH A COURSE</h5>
+                    <input class="form-control" id="email" type="email">
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="row white-text coursesmenu">
+                        <ul class="col-sm-12 col-md-6 col-lg-4">
+                            <li>
+                                <label>
+                                    <input checked name="group1" type="radio"/>
+                                    <span>Short Courses</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input name="group1" type="radio"/>
+                                    <span>Undergraduate</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" type="radio"/>
+                                    <span>PostGraduate</span>
+                                </label>
+                            </li>
+
+                        </ul>
+                        <ul class="col-sm-12 col-md-6 col-lg-4">
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group2" type="radio"/>
+                                    <span>Part - Time</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group2" type="radio"/>
+                                    <span>Full - Time</span>
+                                </label>
+                            </li>
+                        </ul>
+                        <ul class="col-sm-12 col-md-6 col-lg-4">
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group2" type="radio"/>
+                                    <span>Domestic Student</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group2" type="radio"/>
+                                    <span>International Student</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <section class="thirdandhalfsection">
+        <div class="footertriangletwo"></div>
+        <div class="footertrianglethree"></div>
+        <div class="footertrianglefour"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <h4 class="col-sm-12 text-center">Internship/Work Placement</h4>
+                <div class="col-sm-6"></div>
+
+                <div class="col-sm-6">
+                    <div class="card" style="max-width:630px">
+                        <div class="card-body">
+                            <p class="card-text">Experience in the workplace will allow you to integrate theory with
+                                practice and
+                                inform your further study and approach to learning. You can undertake an internship
+                                or work experience in Australia, in your home country, or in a completely new
+                                destination. You must register the internship via CareerHub to be reviewed by the
+                                Work Integrated Learning team (internships).</p>
+                            <p></p>
+                            <p>Internships or work experience are offered through the following options
+                            <p>
+
+
+                            <ul>
+                                <li>6-month Internships</li>
+                                <li>12-week Work Experience</li>
+                                <li>9-month Internship</li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="fourthsection">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h5>
+                        <span>
+                            WHY STUDY AT EXCELSIA
+                        </span>
+                    </h5>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="img-holder text-center">
+                        <img class="img-fluid" src="img/Learn-icon.png">
+                    </div>
+                    <div class="heading-holder">
+                        <span>
+                            LEARNING
+                        </span>
+                    </div>
+                    <div class="text-holder">
+                        <span>
+                            Learn up-to-date knowledge, new perspectives and fresh techniques for your future career
+                        </span>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="img-holder text-center">
+                        <img class="img-fluid" src="img/build-icon.png">
+                    </div>
+                    <div class="heading-holder">
+                        <span>
+                            BUILDING
+                        </span>
+                    </div>
+                    <div class="text-holder">
+                        <span>
+                            Learn up-to-date knowledge, new perspectives and fresh techniques for your future career
+                        </span>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="img-holder text-center">
+                        <img class="img-fluid" src="img/Achieve-icon.png">
+                    </div>
+                    <div class="heading-holder">
+                        <span>
+                            ACHIEVING
+                        </span>
+                    </div>
+                    <div class="text-holder">
+                        <span>
+                            Learn up-to-date knowledge, new perspectives and fresh techniques for your future career
+                        </span>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="img-holder text-center">
+                        <img class="img-fluid" src="img/network-icon.png">
+                    </div>
+                    <div class="heading-holder">
+                        <span>
+                            COMMUNITY
+                        </span>
+                    </div>
+                    <div class="text-holder">
+                        <span>
+                            Learn up-to-date knowledge, new perspectives and fresh techniques for your future career
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fifthsection">
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-6">
+                    <div class="card mb-3" style="max-height: 350px; overflow: hidden">
+                        <div class="row g-0">
+                            <div class="col-md-4 card-image-holder">
+                                <img alt="..." class="rounded-start" src="img/block-alumni.jpg">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title card-headers-with-underline header-unicode-arrow-point-up">Student Testimonial</h3>
+                                    <p class="card-text">
+                                    <h4 class="card-headers-with-underline">Kristelle Zibara</h4>
+                                    <h4>Bachelor of Dramatic Art</h4>
+                                    <span>Meet Kristelle Zibara, the Sydney actor set to hit the big time…</span>
+                                    </p>
+                                    <p class="card-text"><span class="text-muted readmore-text header-unicode-arrow-point-up">
+                                        Read More
+                                    </span></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-sm-12 col-md-6">
+                    <div class="card mb-3" style="max-height: 350px">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sixthsection">
+        <div class="footertrianglefive"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 firstcol">
+
+                    <div class="center-holder">
+                        <h6>Excelsia</h6>
+                        <h4>Excellence in</h4>
+                        <h2 class="middleheading">Teaching</h2>
+                        <h2>Awards</h2>
+                        <h6>Quarter 2 2021</h6>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-5 card-image-holder">
+                                <img alt="..." class="rounded-start img-fluid" src="img/Sharethe%20light%20BW.jpg">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title card-headers-with-underline header-unicode-arrow-point-up">Hailey McQueen</h5>
+                                    <p class="card-text">
+                                    <span class="card-headers-without-underline subheader">School of Creative & Performing Art</span>
+                                    <span>Meet Hailey McQueen, the winner of 2nd quarter 2021 …</span>
+                                    </p>
+                                    <p class="card-text"><span class="text-muted readmore-text header-unicode-arrow-point-up">
+                                        Read More
+                                    </span></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="page-footer">
+
+        <div class="footerTtriangleone"></div>
+        <div class="footerTtriangletwo"></div>
+
+        <div class="row bottommenut">
+            <div class="col-sm-12 col-lg-2 center-on-small-only">
+                <a class="" href="#">
+                    <img src="img/image001.png"/>
+                </a>
+            </div>
+            <div class="col-sm-12 col-lg-2">
+                <ul>
+                    <li class="menutitle">Student</li>
+                    <li>Current Student</li>
+                    <li>Future Student</li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-lg-2">
+                <ul>
+                    <li class="menutitle">About Us</li>
+                    <li>Mission, Vission and Values</li>
+                    <li>Meet Our Board</li>
+                    <li>Search</li>
+                    <li>Research</li>
+                    <li>Donations</li>
+                    <li>News and Events</li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-lg-2">
+                <ul>
+                    <li class="menutitle">Connect</li>
+                    <li>Contact</li>
+                    <li>Apply</li>
+                    <li>On Campus</li>
+                    <li>Emergency</li>
+                    <li>Career in Excelsia</li>
+
+                </ul>
+            </div>
+
+            <div class="col-sm-12 col-lg-2">
+                <ul>
+                    <li class="menutitle">Connect</li>
+                    <li>Contact</li>
+                    <li>Apply</li>
+                    <li>On Campus</li>
+                    <li>Emergency</li>
+                    <li>Career in Excelsia</li>
+
+                </ul>
+            </div>
+            <div class="col-sm-12 col-lg-2">
+                <ul>
+                    <li class="menutitle">Connect</li>
+                    <li>Contact</li>
+                    <li>Apply</li>
+                    <li>On Campus</li>
+                    <li>Emergency</li>
+                    <li>Career in Excelsia</li>
+
+                </ul>
+            </div>
+            <hr class="col-sm-12">
+            <div class="col-sm-12 text-center bottomtext">
+                <p>
+                    <span>(c) 2021 Excelsia College All right Reserved | </span>
+                    <span>ABN: 360 555 55 555 CRISCROS | Provider Code: 4433Rk</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<img class="livechatbtn" src="img/LiveChat.png"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
